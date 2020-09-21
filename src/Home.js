@@ -16,9 +16,9 @@ class Home extends React.Component {
     color[0].classList.remove("bg-white");
     color[0].classList.add("color-animation");
 
-    const disbaleBtn = document.getElementById("btn");
-    disbaleBtn.setAttribute("disabled", "disabled");
-    disbaleBtn.classList.add("cursor-not-allowed");
+    // const disbaleBtn = document.getElementById("btn");
+    // disbaleBtn.setAttribute("disabled", "disabled");
+    // disbaleBtn.classList.add("cursor-not-allowed");
 
     this.setState({
       text: "",
@@ -36,7 +36,7 @@ class Home extends React.Component {
       color[0].classList.add("bg-white");
       color[0].classList.remove("color-animation");
 
-      console.log(disbaleBtn);
+      
     }, 5000);
   };
 
